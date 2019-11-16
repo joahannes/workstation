@@ -13,7 +13,7 @@ sudo apt update &&
 
 ## Instalando pacotes e programas do repositório deb do Ubuntu ##
 
-sudo apt install python3 python-pip git build-essential libssl-dev flatpak -y &&
+sudo apt install python3 python-pip git build-essential libssl-dev -y &&
 
 ## Instalando programas com PPA ##
 
