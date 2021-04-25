@@ -15,18 +15,33 @@ sudo apt update &&
 
 sudo apt install python3 python-pip git build-essential libssl-dev -y &&
 
+# pomodoro timer
+sudo apt-get install gnome-shell-pomodoro &&
+
 ## Instalando programas com PPA ##
 
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y &&
 sudo apt update &&
 sudo apt-get install qbittorrent
 
+sudo add-apt-repository ppa:atareao/atareao &&
+sudo apt-get update &&
+sudo apt-get install my-weather-indicator
+
+sudo apt install indicator-multiload
+sudo apt install inkscape
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
+
 ## Instalando pacotes Snap ##
 
-sudo snap install skype --classic &&  
-sudo snap install code --classic && 
+sudo snap install code && 
 sudo snap install spotify &&
-sudo snap install twinux
+sudo snap install twinux &&
+sudo snap install telegram-desktop
  
 ## Softwares que precisam de download externo ##
 
