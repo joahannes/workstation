@@ -18,6 +18,8 @@ sudo apt install python3 python-pip git build-essential libssl-dev -y &&
 # pomodoro timer
 sudo apt-get install gnome-shell-pomodoro &&
 
+sudo apt install gnome-tweaks
+
 ## Instalando programas com PPA ##
 
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y &&
