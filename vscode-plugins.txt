@@ -1,0 +1,6 @@
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension jsynowiec.vscode-insertdatestring
+code --install-extension MS-CEINTL.vscode-language-pack-pt-BR
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
