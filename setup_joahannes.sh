@@ -1,9 +1,10 @@
 #!/bin/bash
 # arquivo: setup_joahannes.sh
 # autor: Joahannes B. D. da Costa
-# data: 15.11.2019 
+# data: 15/11/2019
+# atualizacao: 07/10/2021
 
-## Removendo travas eventuais do apt ##
+# Removendo travas eventuais do apt ##
 
 sudo rm /var/lib/dpkg/lock-frontend ; sudo rm /var/cache/apt/archives/lock ;
 
@@ -43,7 +44,10 @@ sudo apt-get install sublime-text
 sudo snap install code && 
 sudo snap install spotify &&
 sudo snap install twinux &&
-sudo snap install telegram-desktop
+sudo snap install telegram-desktop &&
+sudo snap install slack &&
+sudo snap install notion-snap &&
+sudo snap install discord
  
 ## Softwares que precisam de download externo ##
 
@@ -56,5 +60,8 @@ sudo apt update && sudo apt upgrade -y && sudo apt autoclean -y && sudo apt auto
 ## Fim do Script ##
 
 echo "Finalizado!"
+echo
+echo "Buscar manualmente pelos programas:"
+echo " > ocenaudio"
 
 #EOF
