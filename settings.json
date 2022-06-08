@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.minimap.enabled": false,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "color": "black",
+            "backgroundColor": "#ffab00",
+        },
+        {
+            "text": "DEBUG:",
+            "color": "black",
+            "backgroundColor": "#e04f4f",
+        },
+        {
+        "text": "FIXME:",
+        "color": "black",
+        "backgroundColor": "#FFFFFF",
+        }
+    ],
+    "todohighlight.defaultStyle": {
+        "color": "black",
+        "backgroundColor": "#ffab00",
+        "overviewRulerColor": "#ffab00",
+        "cursor": "pointer",
+        "border": "1px solid black",
+        "borderRadius": "2px",
+        "isWholeLine": true,
+    }
+}
