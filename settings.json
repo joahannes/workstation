@@ -20,12 +20,14 @@
         }
     ],
     "todohighlight.defaultStyle": {
+
         "color": "black",
         "backgroundColor": "#ffab00",
         "overviewRulerColor": "#ffab00",
         "cursor": "pointer",
         "border": "1px solid black",
         "borderRadius": "2px",
-        "isWholeLine": true,
-    }
+        "isWholeLine": false,
+    },
+    "window.zoomLevel": 1
 }
