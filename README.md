@@ -22,3 +22,11 @@ Fonte: [StackOverflow](https://stackoverflow.com/questions/51075843/eclipse-phot
 7. Restart Eclipse.
 
 Fonte: [Dracula Theme](https://draculatheme.com/eclipse).
+
+## TODO Highligth Code
+
+cd ~/workstation
+cp ~/.config/Code/User/settings.json .
+git add .
+git commit -m "message"
+git push
