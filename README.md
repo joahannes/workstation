@@ -37,8 +37,24 @@ Fonte: [Dracula Theme](https://draculatheme.com/eclipse).
 
 ## Flip Clock
 
+## Instalar xscreensaver
+
+> sudo apt-get install xscreensaver xscreensaver-gl-extra xscreensaver-data-extra
+
 > git clone https://github.com/joahannes/gluqlo.git
 
 > cd gluqlo/
 
 > make && sudo make install
+
+## Comando para editar o arquivo:
+
+> gedit ~/.xscreensaver
+
+### Caso o arquivo esteja em branco, basta rodar o comando abaixo e abrir novamente o arquivo anterior
+
+> xscreensaver
+
+## Inserir
+
+> gluqlo -root \n\
