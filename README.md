@@ -25,8 +25,20 @@ Fonte: [Dracula Theme](https://draculatheme.com/eclipse).
 
 ## TODO Highligth Code
 
-cd ~/workstation
-cp ~/.config/Code/User/settings.json .
-git add .
-git commit -m "message"
-git push
+> cd ~/workstation
+
+> cp ~/.config/Code/User/settings.json .
+
+> git add .
+
+> git commit -m "message"
+
+> git push
+
+## Flip Clock
+
+> git clone https://github.com/joahannes/gluqlo.git
+
+> cd gluqlo/
+
+> make && sudo make install
