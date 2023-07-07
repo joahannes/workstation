@@ -53,6 +53,15 @@ sudo snap install discord
 
 cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i *.deb &&
 
+## Instalando protetor de tela estilo Flip Clock
+
+sudo apt-get install xscreensaver libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev libx11-dev &&
+
+
+echo "Editar arquivo ~/.xscreensaver"
+
+echo "Adicionar > gluqlo -root \n\"
+
 ## Atualização do sistema ##
 
 sudo apt update && sudo apt upgrade -y && sudo apt autoclean -y && sudo apt autoremove -y &&
