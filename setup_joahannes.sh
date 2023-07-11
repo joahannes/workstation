@@ -2,13 +2,13 @@
 # arquivo: setup_joahannes.sh
 # autor: Joahannes B. D. da Costa
 # data: 15/11/2019
-# atualizacao: 07/10/2021
+# atualizacao: 11/07/2023
 
 # Removendo travas eventuais do apt ##
 
 sudo rm /var/lib/dpkg/lock-frontend ; sudo rm /var/cache/apt/archives/lock ;
 
-## Atualizando o repositório ##
+## Atualizando o repositório
 
 sudo apt update && 
 
@@ -17,22 +17,13 @@ sudo apt update &&
 sudo apt install python3 python-pip git build-essential libssl-dev -y &&
 
 # pomodoro timer
-sudo apt-get install gnome-shell-pomodoro &&
+# sudo apt-get install gnome-shell-pomodoro &&
 
 sudo apt install gnome-tweaks
 
-## Instalando programas com PPA ##
-
-sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y &&
-sudo apt update &&
-sudo apt-get install qbittorrent
-
-sudo add-apt-repository ppa:atareao/atareao &&
-sudo apt-get update &&
-sudo apt-get install my-weather-indicator
-
 sudo apt install indicator-multiload
 sudo apt install inkscape
+
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo apt-get install apt-transport-https
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
@@ -43,11 +34,14 @@ sudo apt-get install sublime-text
 
 sudo snap install code && 
 sudo snap install spotify &&
-sudo snap install twinux &&
 sudo snap install telegram-desktop &&
-sudo snap install slack &&
 sudo snap install notion-snap &&
-sudo snap install discord
+sudo snap install discord &&
+sudo snap install meteo
+
+# Terminal
+sudo apt install terminator -y
+sudo apt install zsh -y
  
 ## Softwares que precisam de download externo ##
 
@@ -60,7 +54,7 @@ sudo apt-get install xscreensaver libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-
 
 echo "Editar arquivo ~/.xscreensaver"
 
-echo "Adicionar > gluqlo -root \n\"
+echo "Adicionar > gluqlo -root {barra invertida}n"
 
 ## Atualização do sistema ##
 
