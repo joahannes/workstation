@@ -42,7 +42,14 @@ sudo snap install meteo
 # Terminal
 sudo apt install terminator -y
 sudo apt install zsh -y
- 
+
+# Instalar OhMyZsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Editar arquivo ~/.zshrc
+# ZSH_THEME="essembeh"
+
 ## Softwares que precisam de download externo ##
 
 cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i *.deb &&
