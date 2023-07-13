@@ -52,7 +52,17 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ## Softwares que precisam de download externo ##
 
-cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i *.deb &&
+cd ~/Downloads/
+
+# Chrome
+
+wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+# Xournal++
+
+wget -c https://github.com/xournalpp/xournalpp/releases/download/v1.1.3/xournalpp-1.1.3-Ubuntu-focal-x86_64.deb
+
+sudo dpkg -i *.deb
 
 ## Instalando protetor de tela estilo Flip Clock
 
