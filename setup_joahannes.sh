@@ -19,6 +19,9 @@ sudo apt install python3 python-pip git build-essential libssl-dev -y &&
 # pomodoro timer
 # sudo apt-get install gnome-shell-pomodoro &&
 
+# gnome classic
+sudo apt install gnome-session-flashback
+
 sudo apt install gnome-tweaks
 
 sudo apt install indicator-multiload
@@ -65,13 +68,9 @@ wget -c https://github.com/xournalpp/xournalpp/releases/download/v1.1.3/xournalp
 sudo dpkg -i *.deb
 
 ## Instalando protetor de tela estilo Flip Clock
-
-sudo apt-get install xscreensaver libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev libx11-dev &&
-
-
-echo "Editar arquivo ~/.xscreensaver"
-
-echo "Adicionar > gluqlo -root {barra invertida}n"
+# sudo apt-get install xscreensaver libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev libx11-dev &&
+# echo "Editar arquivo ~/.xscreensaver"
+# echo "Adicionar > gluqlo -root {barra invertida}n"
 
 ## Atualização do sistema ##
 
