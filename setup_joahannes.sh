@@ -2,7 +2,7 @@
 # arquivo: setup_joahannes.sh
 # autor: Joahannes B. D. da Costa
 # data: 15/11/2019
-# atualizacao: 11/07/2023
+# atualizacao: 12/09/2023
 
 # Removendo travas eventuais do apt ##
 
@@ -45,6 +45,8 @@ sudo snap install meteo
 # Terminal
 sudo apt install terminator -y
 sudo apt install zsh -y
+
+sudo apt install vlc -y
 
 # Instalar OhMyZsh
 
