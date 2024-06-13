@@ -2,7 +2,7 @@
 # arquivo: setup_joahannes.sh
 # autor: Joahannes B. D. da Costa
 # data: 15/11/2019
-# atualizacao: 12/09/2023
+# atualizacao: 13/06/2024
 
 # Removendo travas eventuais do apt ##
 
@@ -19,13 +19,10 @@ sudo apt install python3 python-pip git build-essential libssl-dev -y &&
 # pomodoro timer
 # sudo apt-get install gnome-shell-pomodoro &&
 
-# gnome classic
-sudo apt install gnome-session-flashback
-
 sudo apt install gnome-tweaks
 
 sudo apt install indicator-multiload
-sudo apt install inkscape
+sudo apt install inkscape -y
 
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo apt-get install apt-transport-https
@@ -40,7 +37,12 @@ sudo snap install spotify &&
 sudo snap install telegram-desktop &&
 sudo snap install notion-snap &&
 sudo snap install discord &&
-sudo snap install meteo
+
+## Instalando pacotes Flatpak ##
+
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+# Gear Lever - Gerenciador de AppImage
+flatpak install flathub it.mijorus.gearlever -y
 
 # Terminal
 sudo apt install terminator -y
